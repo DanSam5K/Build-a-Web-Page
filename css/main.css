@@ -42,6 +42,24 @@ section#paragraph {
     margin: 100px;
 }
 
+
+/*style service page*/
+h1#page-title {
+    margin-left: 400px;
+    color: #021428;
+}
+
+img#services-slide {
+    margin-left: 401px;
+    width : 67%;
+}
+
+section#services-paragraph {
+    margin: 100px;
+    margin-left: 400px;
+}
+
+
 footer {
     margin-top: 200px;
     background: #021428;
