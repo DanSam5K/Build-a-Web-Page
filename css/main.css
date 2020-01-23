@@ -28,11 +28,10 @@ a.active {
 }
 
 img#logo {
-    margin-left: 40px;
-    margin-right: 20px;
-    margin-top: 14px;
+    margin-left: 69px;
+    margin-right: 200px;
+    margin-top: 0px;
 }
-
 img#slideshow {
     border-bottom: 10px solid #021428;
     width: 1903px;        
@@ -59,6 +58,131 @@ section#services-paragraph {
     margin-left: 400px;
 }
 
+/*style portfolio*/
+
+img#project1, img#project2, img#project3 {
+    margin-left: 340px;
+}
+section#project1 {
+    margin: 50px;
+}
+
+div#project1 {
+    margin-left: 1180px;
+    position: absolute;
+    top: 140px;
+    left: 0px;
+    width: 466px;
+}
+
+a.project1-button {
+    width: 100px;
+    height: 60px;
+    background: #c51a1a;
+    padding: 20px;
+    position: relative;
+    top: 4px;
+    left: -21px;
+}
+
+section#project2 {
+    margin: 50px;
+}
+ 
+
+div#project2 {
+    margin-left: 1180px;
+    position: absolute;
+    top: 570px;
+    left: 0px;
+    width: 466px;
+}
+
+a.project2-button {
+    width: 100px;
+    height: 60px;
+    background: #c51a1a;
+    padding: 20px;
+    position: relative;
+    top: 4px;
+    left: -21px;
+}
+
+/*about page*/
+img#about-image {
+    margin-left: 350px;
+}
+
+section#project3 {
+    margin: 50px;
+}
+ 
+
+
+div#project3 {
+    margin-left: 1180px;
+    position: absolute;
+    top: 990px;
+    left: 0px;
+    width: 466px;
+}
+
+a.project3-button {
+    width: 100px;
+    height: 60px;
+    background: #c51a1a;
+    padding: 20px;
+    position: relative;
+    top: 4px;
+    left: -21px;
+}
+
+/*style contact page */
+
+form {
+    margin-left: 350px;
+}
+
+.form-control {
+    display: block;
+    width: 40%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #ffffff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .5rem;
+    transition: border-color .15s case-in-out, box-shadow .15s case-in-out;
+}
+
+.btn-primary {
+    color: #ffffff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover{
+    color: #ffffff;
+    background-color: blue;
+    border-color: blue;
+}
+
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .5rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
 
 footer {
     margin-top: 200px;
